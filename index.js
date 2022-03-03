@@ -27,7 +27,7 @@ document.querySelector("button").addEventListener("click",function(){
   Timer();
     setTimeout(function(){
       document.querySelector("button").classList.add("invisible");
-      // document.querySelector("h1").classList.add("invisible");
+      document.querySelector("h1").classList.add("invisible");
     },900);
     setTimeout(generateHeadTail,7020);
 
