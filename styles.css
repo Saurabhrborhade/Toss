@@ -17,6 +17,7 @@ p{
 }
 .invisible{
   visibility: collapse;
+  position: absolute;
 }
 .ans{
   font-size: 7rem;
